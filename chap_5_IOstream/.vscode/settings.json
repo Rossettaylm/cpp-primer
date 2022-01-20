@@ -1,0 +1,20 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "exception": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "cctype": "cpp",
+        "cstdint": "cpp",
+        "cwchar": "cpp",
+        "system_error": "cpp",
+        "stdexcept": "cpp",
+        "fstream": "cpp",
+        "limits": "cpp",
+        "sstream": "cpp"
+    }
+}

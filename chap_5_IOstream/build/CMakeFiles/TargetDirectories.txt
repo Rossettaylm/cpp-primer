@@ -1,0 +1,3 @@
+D:/CodeSpace/c++ primer exercise/chap_5_IOstream/build/CMakeFiles/stringstream.dir
+D:/CodeSpace/c++ primer exercise/chap_5_IOstream/build/CMakeFiles/edit_cache.dir
+D:/CodeSpace/c++ primer exercise/chap_5_IOstream/build/CMakeFiles/rebuild_cache.dir

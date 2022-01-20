@@ -1,0 +1,3 @@
+/home/rossetta/Code/cpp_primer/chap_6_SequenceContainer/build/CMakeFiles/rebuild_cache.dir
+/home/rossetta/Code/cpp_primer/chap_6_SequenceContainer/build/CMakeFiles/edit_cache.dir
+/home/rossetta/Code/cpp_primer/chap_6_SequenceContainer/build/CMakeFiles/main.dir

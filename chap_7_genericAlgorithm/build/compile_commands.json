@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/main.dir/main.cpp.o -c /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/main.cpp",
+  "file": "/home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/main.cpp"
+}
+]

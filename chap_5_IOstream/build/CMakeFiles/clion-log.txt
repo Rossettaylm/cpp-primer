@@ -1,0 +1,4 @@
+Cannot generate into D:\CodeSpace\c++ primer exercise\chap_5_IOstream\build
+It was created with incompatible generator 'MinGW Makefiles'
+
+Please either delete it manually or select another generation directory
