@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm
+CMAKE_SOURCE_DIR = /home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build
+CMAKE_BINARY_DIR = /home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build/CMakeFiles /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/build/CMakeFiles /home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named iterator
+# Target rules for targets named main
 
 # Build rule for target.
-iterator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 iterator
-.PHONY : iterator
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-iterator/fast:
-	$(MAKE) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
-.PHONY : iterator/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-iterator.o: iterator.cpp.o
+main.o: main.cpp.o
 
-.PHONY : iterator.o
+.PHONY : main.o
 
 # target to build an object file
-iterator.cpp.o:
-	$(MAKE) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/iterator.cpp.o
-.PHONY : iterator.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-iterator.i: iterator.cpp.i
+main.i: main.cpp.i
 
-.PHONY : iterator.i
+.PHONY : main.i
 
 # target to preprocess a source file
-iterator.cpp.i:
-	$(MAKE) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/iterator.cpp.i
-.PHONY : iterator.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-iterator.s: iterator.cpp.s
+main.s: main.cpp.s
 
-.PHONY : iterator.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-iterator.cpp.s:
-	$(MAKE) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/iterator.cpp.s
-.PHONY : iterator.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... iterator"
-	@echo "... iterator.o"
-	@echo "... iterator.i"
-	@echo "... iterator.s"
+	@echo "... main"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

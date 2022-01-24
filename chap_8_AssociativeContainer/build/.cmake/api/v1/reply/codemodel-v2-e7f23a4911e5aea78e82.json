@@ -8,7 +8,7 @@
 					"build" : ".",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10"
+						"string" : "3.16"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "main",
+					"name" : "associativeContainer",
 					"targetIndexes" : 
 					[
 						0
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/build",
-		"source" : "/home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm"
+		"build" : "/home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/build",
+		"source" : "/home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer"
 	},
 	"version" : 
 	{

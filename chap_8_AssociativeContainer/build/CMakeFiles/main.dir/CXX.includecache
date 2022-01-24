@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/main.cpp
+iostream
+-
+map
+-
+set
+-
+string
+-
+

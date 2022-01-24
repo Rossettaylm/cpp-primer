@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rossetta/Code/cpp_primer/chap_7_genericAlgorithm/iterator.cpp
+iostream
+-
+algorithm
+-
+numeric
+-
+iterator
+-
+vector
+-
+
