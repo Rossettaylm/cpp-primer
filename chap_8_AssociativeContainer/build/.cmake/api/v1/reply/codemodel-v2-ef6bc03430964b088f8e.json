@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-c6812d0cdf8bde075e41.json",
-					"name" : "main",
+					"id" : "word_transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-word_transform-Debug-fc3ed85066d23868756b.json",
+					"name" : "word_transform",
 					"projectIndex" : 0
 				}
 			]

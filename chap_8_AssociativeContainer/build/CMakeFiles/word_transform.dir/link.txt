@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/word_transform.dir/word_transform.cpp.o  -o word_transform 

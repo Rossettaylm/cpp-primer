@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/main.cpp
+/home/rossetta/Code/cpp_primer/chap_8_AssociativeContainer/word_transform.cpp
 iostream
 -
+fstream
+-
+sstream
+-
 map
--
-set
--
-vector
--
-string
--
-utility
 -
 

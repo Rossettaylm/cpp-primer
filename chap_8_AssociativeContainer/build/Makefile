@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named word_transform
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+word_transform: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 word_transform
+.PHONY : word_transform
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+word_transform/fast:
+	$(MAKE) -f CMakeFiles/word_transform.dir/build.make CMakeFiles/word_transform.dir/build
+.PHONY : word_transform/fast
 
-main.o: main.cpp.o
+word_transform.o: word_transform.cpp.o
 
-.PHONY : main.o
+.PHONY : word_transform.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+word_transform.cpp.o:
+	$(MAKE) -f CMakeFiles/word_transform.dir/build.make CMakeFiles/word_transform.dir/word_transform.cpp.o
+.PHONY : word_transform.cpp.o
 
-main.i: main.cpp.i
+word_transform.i: word_transform.cpp.i
 
-.PHONY : main.i
+.PHONY : word_transform.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+word_transform.cpp.i:
+	$(MAKE) -f CMakeFiles/word_transform.dir/build.make CMakeFiles/word_transform.dir/word_transform.cpp.i
+.PHONY : word_transform.cpp.i
 
-main.s: main.cpp.s
+word_transform.s: word_transform.cpp.s
 
-.PHONY : main.s
+.PHONY : word_transform.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+word_transform.cpp.s:
+	$(MAKE) -f CMakeFiles/word_transform.dir/build.make CMakeFiles/word_transform.dir/word_transform.cpp.s
+.PHONY : word_transform.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... word_transform"
+	@echo "... word_transform.o"
+	@echo "... word_transform.i"
+	@echo "... word_transform.s"
 .PHONY : help
 
 
